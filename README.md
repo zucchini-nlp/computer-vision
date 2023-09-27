@@ -18,7 +18,7 @@ Before you get started, make sure you have the following:
 
 - Python installed (Python 3.x is recommended).
 - Jupyter Notebook installed (if not, you can install it with pip).
-- Required libraries like TensorFlow, PyTorch, or any deep learning framework you prefer.
+- Required libraries like PyTorch, Transformers which are in the requirements.txt file.
 - A curious mind and a passion for computer vision!
 
 ## Getting Started

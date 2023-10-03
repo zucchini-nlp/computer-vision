@@ -47,11 +47,30 @@ Before you get started, make sure you have the following:
 
 Image classification is a fundamental computer vision task that involves training machines to recognize and categorize objects or patterns within images. This capability is at the core of various applications, from identifying objects in photos to enabling self-driving cars to detect road signs and pedestrians.
 
-In this repository, I've provided three notebooks, each offering a unique approach to image classification. These notebooks serve as practical examples to help you grasp the concepts and gain hands-on experience in image classification. You'll find demonstrations using different architectures and libraries, allowing you to explore various techniques and methodologies.
+**Loss and Accuracy**
+
+The loss function is used to measure how well the model's predictions match the ground truth labels. The accuracy metric is used to measure how often the model's predictions are correct. For image classification, a common loss function is the cross-entropy loss. The cross-entropy loss measures the difference between the predicted class probabilities and the ground truth class probabilities. The accuracy metric for image classification is typically calculated as the percentage of images that are correctly classified by the model.
+
+**Popular Architectures**
+
+There are a variety of different image classification architectures available. Some of the most popular architectures include:
+
+* Convolutional neural networks (CNNs)
+* Vision transformers (ViTs)
+
+CNNs are a type of neural network that is well-suited for image classification tasks. CNNs learn to extract features from images that are relevant for classification.
+
+ViTs are a newer type of neural network that has been shown to achieve state-of-the-art accuracy on image classification benchmarks. ViTs work by converting images into a sequence of tokens and then using a transformer architecture to learn representations of the tokens.
+
+**Choosing an Architecture**
+
+The best image classification architecture for a particular task will depend on the specific requirements of the task, such as the desired accuracy, speed, and resource constraints.
+
+If accuracy is the most important factor, then a ViT-based model is a good choice. If speed is the most important factor, then a CNN-based model is a good choice. If resource constraints are a concern, then a smaller CNN-based model may be a better choice.
 
 **Explore the Notebooks**
 
-Here's a quick overview of the three notebooks available:
+In this repository, I've provided three notebooks, each offering a unique approach to image classification. These notebooks serve as practical examples to help you grasp the concepts and gain hands-on experience in image classification. You'll find demonstrations using different architectures and libraries, allowing you to explore various techniques and methodologies. Here's a quick overview of the three notebooks available:
 
 1. **Notebook 1: VGG from Scratch on CIFAR100 with PyTorch** - This notebook guides you through the process of building a VGG (Visual Geometry Group) model from scratch using the PyTorch framework. You'll apply this model to the CIFAR-100 dataset, gaining hands-on experience in creating a deep neural network for image classification. Explore this notebook if you're interested in building neural networks from the ground up.
 

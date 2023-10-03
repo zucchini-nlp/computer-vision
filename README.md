@@ -45,8 +45,6 @@ Before you get started, make sure you have the following:
 
 ### <a name="classification">Image Classification</a>
 
-# Image Classification
-
 Image classification is a fundamental computer vision task that involves training machines to recognize and categorize objects or patterns within images. This capability is at the core of various applications, from identifying objects in photos to enabling self-driving cars to detect road signs and pedestrians.
 
 In this repository, I've provided three notebooks, each offering a unique approach to image classification. These notebooks serve as practical examples to help you grasp the concepts and gain hands-on experience in image classification. You'll find demonstrations using different architectures and libraries, allowing you to explore various techniques and methodologies.

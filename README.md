@@ -74,7 +74,7 @@ In this repository, I've provided three notebooks, each offering a unique approa
 
 1. **Notebook 1: VGG from Scratch on CIFAR100 with PyTorch** - This notebook guides you through the process of building a VGG (Visual Geometry Group) model from scratch using the PyTorch framework. You'll apply this model to the CIFAR-100 dataset, gaining hands-on experience in creating a deep neural network for image classification. Explore this notebook if you're interested in building neural networks from the ground up.
 
-2. **Notebook 2: ResNet from Scratch with PyTorch Lightning** - In this notebook, you'll explore the construction of a ResNet model from scratch using PyTorch Lightning. ResNet is a popular architecture known for its deep network design. You'll learn how to implement and train this model for image classification tasks. If you're curious about building and training deep convolutional networks, this notebook is for you.
+2. **Notebook 2: GoogLeNet from Scratch with PyTorch Lightning** - In this notebook, you'll explore the construction of a ResNet model from scratch using PyTorch Lightning. ResNet is a popular architecture known for its deep network design. You'll learn how to implement and train this model for image classification tasks. If you're curious about building and training deep convolutional networks, this notebook is for you.
 
 3. **Notebook 3: Fine-tuning Vision Transformer (ViT) with Hugging Face Trainer** - The third notebook takes a different approach by introducing the Vision Transformer (ViT) architecture. You'll utilize the Hugging Face Trainer framework to fine-tune a pre-trained ViT model for image classification, showcasing the power of transfer learning. This notebook is perfect for those interested in leveraging pre-trained models for image classification tasks.
 
@@ -97,8 +97,7 @@ Several popular architectures have emerged in the field of object detection, eac
 Selecting the right architecture for your object detection task is a critical decision. Factors to consider include the complexity of the dataset, the speed requirements for real-time processing, and the available computational resources. Understanding the strengths and limitations of different architectures is key to making an informed choice.
 
 **Explore the Notebooks:**
-There is a Jupyter notebook that will guides you through the process of training and fine-tuning a Fast R-CNN model for object detection on the CPPE-5 dataset. The notebook provides step-by-step instructions, code snippets, and explanations to help you grasp the concepts and apply them to your own projects. Make the most of these resources to enhance your understanding of object detection with Fast R-CNN.
-
+1. **Notebook 1: Fast RCNN finenuning on CPPE-5 dataset** - This notebook guides you through the process of building a FastRCNN model using components from the trochvision package and how to put pieces together. You'll apply this model to the CPPE-5 dataset, which is a dataset to study of subordinate categorization of medical personal protective equipments. The notebook provides step-by-step instructions, code snippets, and explanations to help you grasp the concepts and apply them to your own projects. Make the most of these resources to enhance your understanding of object detection with Fast R-CNN. 
 
 
 ### <a name="recognition">Face Recognition</a>
@@ -113,6 +112,10 @@ Face recognition is a specialized field within computer vision that involves ide
 
 - **Loss Functions:** The notebook explains two crucial loss functions: Triplet Loss and Contrastive Loss. These functions play a pivotal role in training an effective face recognition model. Triplet Loss encourages the model to reduce the distance between embeddings of matching faces while increasing the distance between non-matching faces, and Contrastive Loss enforces a similar concept.
 
+**Explore the Notebooks:**
+1. **Notebook 1: Face Recognition from scratcj on Labelled Faces on the Wild** - It presents two distinct implementations, one utilizing triplet loss and the other employing contrastive loss. The triplet loss method focuses on minimizing the distance between similar faces while maximizing the distance between dissimilar ones, enabling the model to learn facial features for recognition. Conversely, the contrastive loss approach aims to bring similar faces closer in feature space while pushing apart dissimilar faces. Users can leverage these implementations to train robust face recognition models from scratch. Additionally, the notebook includes a brief but essential inference code section, allowing users to apply the trained model for identifying faces in new images.
+
+   
 ### <a name="captioning">Image Captioning</a>
 
 Image captioning is a captivating realm where the visual meets the textual. It's a task that bridges the gap between computer vision and natural language processing. In image captioning, the goal is to generate human-like descriptions or captions for images, allowing machines to understand and communicate the content of visual data. It's a journey into the art of storytelling through pixels.
